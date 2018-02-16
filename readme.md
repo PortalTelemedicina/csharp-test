@@ -15,11 +15,11 @@ The usage of the following are demanded
 ## Main Tasks 
 
 > 1. Create the following non-authenticated service endpoints
->  . `/signin` - *POST* - receiving an user name and a password
->  . `/signup` - *POST* - receiving an user full display name, an user name, a password and an e-mail address. Upon save time, add the current date and time to the database. An unique id must be created and used throughout the `/order/` POST endpoint
+>  * `/signin` - *POST* - receiving an user name and a password
+>  * `/signup` - *POST* - receiving an user full display name, an user name, a password and an e-mail address. Upon save time, add the current date and time to the database. An unique id must be created and used throughout the `/order/` POST endpoint
 
 > 2. Create the following authenticate service endpoints
->  . `/users` - *GET* - return all inserted users considering the following search and filter parameters:
+>  * `/users` - *GET* - return all inserted users considering the following search and filter parameters:
 >    * search and filter by user name 
 >    * search and filter by all or parts of the full display name
 >    * search and filter by an interval of creation dates
@@ -27,11 +27,11 @@ The usage of the following are demanded
 >    * all search criterias can be infinitely combined
 >    * all singular textual search criterias need to support either ascending and descending sorting
 
->  . `/products` - *GET* - return all inserted customers considering the same search requisites from previous task
->  . `/product/` - *POST* - insert a new product to the product table with the following fields: id, name, description, price, creation date
->  . `/product/` - *PUT* - update all passed fields in its appropriate record
->  . `/order/` - *POST* - inserts an order receiving an user id and a list of products id with the current price and quantity
->  . `/orders/ - *GET* - returns all orders from the database. In here you are free to determine what and how your endpoint should return the data.
+>  * `/products` - *GET* - return all inserted customers considering the same search requisites from previous task
+>  * `/product/` - *POST* - insert a new product to the product table with the following fields: id, name, description, price, creation date
+>  * `/product/` - *PUT* - update all passed fields in its appropriate record
+>  * `/order/` - *POST* - inserts an order receiving an user id and a list of products id with the current price and quantity
+>  * `/orders/ - *GET* - returns all orders from the database. In here you are free to determine what and how your endpoint should return the data.
 
 
 ## Services Requisites
