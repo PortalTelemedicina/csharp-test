@@ -36,7 +36,7 @@ The usage of the following are demanded
 
 ## Services Requisites
 - Run all services in a single docker container
-- All endpoints must have automated tests that will prove the requisites are implemented
+- All endpoints must have automated unit tests that will prove the requisites are implemented
 - Use as many design patterns and best practices as you see fit
 - All database interactions should be done with Entity Framework
 - Use async methods anywhere you find it is needed
