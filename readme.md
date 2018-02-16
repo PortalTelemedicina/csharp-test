@@ -39,10 +39,25 @@ The usage of the following are demanded
 - All endpoints must have automated tests that will prove the requisites are implemented
 - Use as much design patterns and best practices as you see fit
 
+
 ## Database Requisites
 - You are the responsible the create the database structure as best as you can think of. Conciseness, coherence and best practices are going to be considered
 - Microsoft Sql Server must be running in a separate container image from the services one
 
 
-## Deployment Requisites 
+## Deployment Requisites
+- Deployment is key to the sucess of this test
+- Make it as easy as possible
+- The ideal scenario will be to clone your repository and execute it through a single command such as `./INSTALL` or `./RUN`
+- Considering this is a C# test, the deployment can be supported only at Windows SO running machines or virtual machines but it will be considered a plus if you can manage to make it work at linux and/or mac osx OS's as well
+
+
+## Documentation Requisites
+- It can be done in portuguese although being in english, french or spanish will also be considered a plus
+- Should be easy to read and understand the usage (from a client developer's perspective) of your services
+- Must include at least one example of `curl` or `wget` usage of all your endpoints
+
+
+
+
 
