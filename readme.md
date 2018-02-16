@@ -18,7 +18,7 @@ The usage of the following are demanded
 >  * `/signin` - *POST* - receiving an user name and a password
 >  * `/signup` - *POST* - receiving an user full display name, an user name, a password and an e-mail address. Upon save time, add the current date and time to the database. An unique id must be created and used throughout the `/order/` POST endpoint
 
-> 2. Create the following authenticate service endpoints
+> 2. Create the following authenticated service endpoints
 >  * `/users` - *GET* - return all inserted users considering the following search and filter parameters:
 >    * search and filter by user name 
 >    * search and filter by all or parts of the full display name
@@ -37,7 +37,7 @@ The usage of the following are demanded
 ## Services Requisites
 - Run all services in a single docker container
 - All endpoints must have automated tests that will prove the requisites are implemented
-- Use as much design patterns and best practices as you see fit
+- Use as many design patterns and best practices as you see fit
 
 
 ## Database Requisites
@@ -56,7 +56,7 @@ The usage of the following are demanded
 - It can be done in portuguese although being in english, french or spanish will also be considered a plus
 - Should be easy to read and understand the usage (from a client developer's perspective) of your services
 - Must include at least one example of `curl` or `wget` usage of all your endpoints
-- Must have it easy to execute your tests
+- It should be  easy to undertand how to execute your tests
 
 ## Test Development Requisites
 - Use your github to deliver this test
