@@ -58,6 +58,21 @@ The usage of the following are demanded
 - Must include at least one example of `curl` or `wget` usage of all your endpoints
 
 
+## Test Development Requisites
+- Use your github to deliver this test
+- You can fork from here to get started
+- Try to keep your commits to a reasonable atomic capacity
+- Use as much best practices you see fit to address the commits and/or branch naming 
+
+Feel free to ask me (**Marco Santana** - *marco@portaltelemedicina.com.br*) any question.
+
+You can keep me up to date with your test progress. Send me an e-mail as soon as you feel like start sharing your solution, even before being ready. 
+
+
+
+
+Thanks for giving us this opportunity to get to know you and your work. 
+
 
 
 
