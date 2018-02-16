@@ -47,8 +47,8 @@ The usage of the following are demanded
 - Microsoft Sql Server must be running in a separate container image from the services one
 
 
-## Deployment Requisites
-- Deployment is key to the sucess of this test
+## Running and Executing Requisites
+- Make your project running with the minimum needed interactions will be considered important in the analysis of your performance.
 - Make it as easy as possible
 - The ideal scenario will be to clone your repository and execute it through a single command such as `./INSTALL` or `./RUN`
 - Considering this is a C# test, the deployment can be supported only at Windows SO running machines or virtual machines but it will be considered a plus if you can manage to make it work at linux and/or mac osx OS's as well
