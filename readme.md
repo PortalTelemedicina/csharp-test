@@ -43,9 +43,6 @@ The usage of the following are demanded
 - You are the responsible the create the database structure as best as you can think of. Conciseness, coherence and best practices are going to be considered
 - Microsoft Sql Server must be running in a separate container image from the services one
 
-## Deployment Requisites
-- 
-
 
 ## Deployment Requisites 
 
