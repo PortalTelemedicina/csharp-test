@@ -68,8 +68,7 @@ The usage of the following are demanded
 
 Feel free to ask me (*Marco Santana* - **marco@portaltelemedicina.com.br**) any question.
 
-You can keep me up to date with your test progress. Send me an e-mail as soon as you feel like start sharing your solution, even before being ready. 
-
+You have 5 days counting from tomorrow to finish and deliver us the address of your github repository. Please, let us know if you need more time.
 
 
 
