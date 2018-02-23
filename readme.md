@@ -27,7 +27,7 @@ The usage of the following are demanded
 >    * all search criterias can be infinitely combined
 >    * all singular textual search criterias need to support either ascending and descending sorting
 
->  * `/products` - *GET* - return all inserted customers considering the same search requisites from previous task
+>  * `/products` - *GET* - return all inserted products considering the same search requisites from previous task
 >  * `/product/` - *POST* - insert a new product to the product table with the following fields: id, name, description, price, creation date
 >  * `/product/` - *PUT* - update all passed fields in its appropriate record
 >  * `/order/` - *POST* - inserts an order receiving an user id and a list of products id with the current price and quantity
