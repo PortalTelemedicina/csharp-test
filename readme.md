@@ -6,13 +6,13 @@
 The usage of the following are demanded
 - Language C# Latest Version
 - .Net Core Latest Version
-- Auth0 Authentication and Authorization 
+- Auth0 Authentication and Authorization
 - Entity Framework
 - Sql Server
 - Docker
 
 
-## Main Tasks 
+## Main Tasks
 
 > 1. Create the following non-authenticated service endpoints
 >  * `/signin` - *POST* - receiving an user name and a password
@@ -20,7 +20,7 @@ The usage of the following are demanded
 
 > 2. Create the following authenticated service endpoints
 >  * `/users` - *GET* - return all inserted users considering the following search and filter parameters:
->    * search and filter by user name 
+>    * search and filter by user name
 >    * search and filter by all or parts of the full display name
 >    * search and filter by an interval of creation dates
 >    * search and filter by e-mail address
@@ -64,16 +64,12 @@ The usage of the following are demanded
 - Use your github to deliver this test
 - You can fork from here to get started
 - Try to keep your commits to a reasonable atomic capacity
-- Use as much best practices you see fit to address the commits and/or branch naming 
+- Use as much best practices you see fit to address the commits and/or branch naming
 
-Feel free to ask me (*Marco Santana* - **marco@portaltelemedicina.com.br**) any question.
+Feel free to ask me (*Marcos Moritz* - **moritz@portaltelemedicina.com.br**) any question.
 
 You have 5 days counting from tomorrow to finish and deliver us the address of your github repository. Please, let us know if you need more time.
 
 
 
 *Thank you for giving us this opportunity to get to know you and your work.*
-
-
-
-
