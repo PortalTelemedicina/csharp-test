@@ -14,7 +14,7 @@ The usage of the following are demanded
 
 ## Main Tasks
 
-> 1. Create the following non-authenticated service endpoints
+> 1. Create the following unauthenticated service endpoints
 >  * `/signin` - *POST* - receiving an user name and a password
 >  * `/signup` - *POST* - receiving an user full display name, an user name, a password and an e-mail address. Upon save time, add the current date and time to the database. An unique id must be created and used throughout the `/order/` POST endpoint described later in this document
 
@@ -27,11 +27,11 @@ The usage of the following are demanded
 >    * all search criterias can be infinitely combined
 >    * all singular textual search criterias need to support either ascending and descending sorting
 
->  * `/products` - *GET* - return all inserted products considering the same search requisites from previous task
->  * `/product/` - *POST* - insert a new product to the product table with the following fields: id, name, description, price, creation date
->  * `/product/` - *PUT* - update all passed fields in its appropriate record
->  * `/order/` - *POST* - inserts an order receiving an user id and a list of products id with the current price and quantity
->  * `/orders/` - *GET* - returns all orders from the database. In here you are free to determine what and how your endpoint should return the data.
+>  * `/products` - *GET* - return all products considering the same search requisites from previous task
+>  * `/products` - *POST* - insert a new product to the product table with the following fields: id, name, description, price, creation date
+>  * `/products/{id}` - *PUT* - update all passed fields in its appropriate record
+>  * `/orders` - *POST* - inserts an order receiving an user id and a list of products id with the current price and quantity
+>  * `/orders` - *GET* - returns all orders from the database. In here you are free to determine what and how your endpoint should return the data.
 
 
 ## Services Requisites
