@@ -60,15 +60,16 @@ The usage of the following are demanded
 - Must include at least one example of `curl` or `wget` usage of all your endpoints
 - It should be  easy to undertand how to execute your tests
 
+
 ## Last Requisites
 - Use your github to deliver this test
 - You can fork from here to get started
 - Try to keep your commits to a reasonable atomic capacity
 - Use as much best practices you see fit to address the commits and/or branch naming
 
-Feel free to ask me (*Marcos Moritz* - **moritz@portaltelemedicina.com.br**) any question.
+Feel free to ask me (*Luiz Roberto Rodolpho* - **luiz@portaltelemedicina.com.br**) any question.
 
-You have 5 days counting from tomorrow to finish and deliver us the address of your github repository. Please, let us know if you need more time.
+You have 7 days counting from tomorrow to finish and deliver us the address of your github repository. Please, let us know if you need more time.
 
 
 
